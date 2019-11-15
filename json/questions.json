@@ -2,83 +2,33 @@
     "questions": [
         {
             "id": 1,
-            "title": "Lorem ipsum dolor sit amet.",
-            "answers": [
-                {
-                    "id": 1,
-                    "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
-                },
-                {
-                    "id": 2,
-                    "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
-                }
-            ],
-            "rightAnswer": 1,
-            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
+            "title": "L’attribut autoplay permet de jouer automatiquement une vidéo au chargement de la page. Le visiteur peut gérer lui-même la diffusion de la vidéo.",
+            "answer": false,
+            "feedback": "Faux, autoplay est un attribut booléen qui indique que la vidéo doit automatiquement être lancée dès qu'elle peut être jouée, le visiteur ne peut pas gérer la diffusion de la vidéo . "
         },
         {
             "id": 2,
-            "title": "Lorem ipsum dolor sit amet.",
-            "answers": [
-                {
-                    "id": 1,
-                    "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
-                },
-                {
-                    "id": 2,
-                    "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
-                }
-            ],
-            "rightAnswer": 2,
-            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
+            "title": "Dans l'élement de lien $lt;a&gt;, l'attribut target permet d'indiquer l'URL du lien",
+            "answer": false,
+            "feedback": "Faux, c'est l'attribut href qui permet de définir l'URL du lien, l'élément target permet d'indiquer l'endroit ou afficher la ressource (la fenêtre actuelle ou une nouvelle fenêtre par exemple)."
         },
         {
             "id": 3,
-            "title": "Lorem ipsum dolor sit amet.",
-            "answers": [
-                {
-                    "id": 1,
-                    "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
-                },
-                {
-                    "id": 2,
-                    "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
-                }
-            ],
-            "rightAnswer": 2,
-            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
+            "title": "L'attribut colspan d'un élément &lt;td&gt; permet d'indiquer qu'une cellule de tableau doit prendre l'espace de plusieurs colonne",
+            "answer": true,
+            "feedback": "Vrai, et l'attribut rowspan permet de fusionner une cellule sur plusieurs lignes"
         },
         {
             "id": 4,
-            "title": "Lorem ipsum dolor sit amet.",
-            "answers": [
-                {
-                    "id": 1,
-                    "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
-                },
-                {
-                    "id": 2,
-                    "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
-                }
-            ],
-            "rightAnswer": 2,
-            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
+            "title": "L'élément HTML <aside> représente une partie d'un document dont le contenu a un rapport direct avec le contenu principal du document.",
+            "answer": false,
+            "feedback": "Faux, l'élément HTML <aside> (en anglais, \"aparté\") représente une partie d'un document dont le contenu n'a qu'un rapport indirect avec le contenu principal du document. Les apartés sont fréquemment présents sous la forme d'encadrés ou de boîtes de légende."
         },
         {
             "id": 5,
-            "title": "Lorem ipsum dolor sit amet.",
-            "answers": [
-                {
-                    "id": 1,
-                    "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
-                },
-                {
-                    "id": 2,
-                    "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
-                }
-            ],
-            "rightAnswer": 2,
-            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis?"
+            "title": "L’attribut alt de l'élément &lt;img&gt; permet de donner une description de l'image si elle ne peut pas s'afficher",
+            "answer": true,
+            "feedback": "Vrai, cet attribut est notemment utilisé par les lecteurs d'écran et les moteurs de recherche afin de comprendre le contenu de l'image"
         }
     ]
 }
