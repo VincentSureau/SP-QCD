@@ -1,4 +1,3 @@
-const json = require('../json/questions.json');
-const questions = json.questions;
+const questions = require('../json/questions.json');
 
 questions.map(question => console.log(question.title));
